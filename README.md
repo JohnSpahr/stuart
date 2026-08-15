@@ -5,7 +5,7 @@ Text-only PDF and EPUB scraper / reader app for Android
 - Open PDF and EPUB files as plain text
 - Easily find text with search tool
 - Change font / theme / text size
-- Easily read PDFs on mobile devices
+- Easily read documents on mobile devices
 - Share PDF/Epub files via share sheet to app for fast viewing
 
 ### Screenshots
