@@ -8,6 +8,9 @@ Text-only PDF and EPUB scraper / reader app for Android
 - Easily read documents on mobile devices
 - Share PDF/Epub files via share sheet to app for fast viewing
 
+### Download
+If you're looking for a pre-compiled binary of the app, you can find it over at <a href="https://play.google.com/store/apps/details?id=org.johnspahr.stuart" target="_blank"><b>Google Play</b></a>!
+
 ### Screenshots
 <img width="100px" src="screenshots/1.png"/><img width="100px" src="screenshots/2.png"/><img width="100px" src="screenshots/3.png"/><img width="100px" src="screenshots/4.png"/>
 
