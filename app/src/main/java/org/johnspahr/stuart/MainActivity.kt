@@ -194,10 +194,10 @@ class MainActivity : AppCompatActivity(), ReaderMenuBottomSheet.Listener {
                     uri,
                     Intent.FLAG_GRANT_READ_URI_PERMISSION
                 )
-            } catch (e: Exception) {
-                e.printStackTrace()
+                saveLastUri(uri)
+            } catch (_: Exception) {
+                Toast.makeText(this@MainActivity, "Error: missing permissions", Toast.LENGTH_SHORT).show()
             }
-            saveLastUri(uri)
         }
         loadDocumentFromUri(uri)
     }
@@ -216,8 +216,7 @@ class MainActivity : AppCompatActivity(), ReaderMenuBottomSheet.Listener {
                     // load returned html stripped of everything
                     webView.loadDataWithBaseURL(null, htmlContent, "text/html", "UTF-8", null)
                 }
-            } catch (e: Exception) {
-                e.printStackTrace()
+            } catch (_: Exception) {
                 Toast.makeText(this@MainActivity, "Failed to parse document", Toast.LENGTH_SHORT)
                     .show()
             }

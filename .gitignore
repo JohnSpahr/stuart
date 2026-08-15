@@ -81,3 +81,4 @@ obj/
 Thumbs.db
 /app/src/test
 app/src/main/keepRules/rules.keep
+.kotlin/sessions/kotlin-compiler-6424653955303184330.salive

@@ -52,7 +52,6 @@ class DocumentParser(context: Context) {
                 settings
             ) // pass text-only html extracted from pdf to be displayed in webview; also pass through user prefs
         } catch (e: Exception) {
-            e.printStackTrace()
             wrapInTemplate("<p>Error parsing PDF: ${e.message}</p>", settings)
         }
     }
@@ -88,7 +87,6 @@ class DocumentParser(context: Context) {
                 settings
             ) // send text-only HTML parsed from EPUB and user preferences to be displayed in webview
         } catch (e: Exception) {
-            e.printStackTrace()
             wrapInTemplate("<p>Error parsing EPUB: ${e.message}</p>", settings)
         }
     }
