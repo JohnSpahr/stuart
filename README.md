@@ -10,6 +10,7 @@ Text-only PDF and EPUB scraper / reader app for Android
 
 ### Download
 If you're looking for a pre-compiled binary of the app, you can find it over at <a href="https://play.google.com/store/apps/details?id=org.johnspahr.stuart" target="_blank"><b>Google Play</b></a>!
+
 <i>Still rolling out at time of writing–if it's not available in your region yet, it will be shortly :)</i>
 
 ### Screenshots
