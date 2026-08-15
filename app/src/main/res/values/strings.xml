@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Stuart</string>
+    <string name="menu">Menu</string>
+    <string name="font_family">Font Family</string>
+    <string name="font_size">Font Size</string>
+    <string name="theme">Theme</string>
+    <string name="open_new_pdf_epub">Open New PDF / EPUB</string>
+    <string name="stuart_settings">STUART Settings</string>
+    <string name="created_by_john_spahr">Created by John Spahr</string>
+    <string name="sepia">Simply Sepia</string>
+    <string name="dark">Dark Night</string>
+    <string name="serif">Serif</string>
+    <string name="defaultOption">Default</string>
+    <string name="sans">Sans</string>
+    <string name="mono">Mono</string>
+    <string name="cursive">Cursive</string>
+    <string name="terminal">Timeless Terminal</string>
+    <string name="feelin_blue">Feelin\' Blue</string>
+    <string name="about">About</string>
+    <string name="condensed">Condensed</string>
+    <string name="find_text">Find Text</string>
+    <string name="stop_searching">Stop Searching</string>
+    <string name="search_text">Search text...</string>
+    <string name="find_instances_of_text">Find instances of text</string>
+</resources>

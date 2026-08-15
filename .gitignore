@@ -79,3 +79,5 @@ chat_history/
 obj/
 .DS_Store
 Thumbs.db
+/app/src/test
+app/src/main/keepRules/rules.keep

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.STUART" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">#934A00</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FFDCC2</item>
+        <item name="colorOnPrimaryContainer">#301400</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">#FFF8F5</item>
+        <item name="colorOnBackground">#221A14</item>
+        <item name="colorSurface">#FFF8F5</item>
+        <item name="colorOnSurface">#221A14</item>
+        <item name="colorSurfaceVariant">#F4E0D4</item>
+        <item name="colorOnSurfaceVariant">#52443C</item>
+
+        <!-- System Bars -->
+        <item name="android:statusBarColor">#FFF8F5</item>
+        <item name="android:navigationBarColor">#FFF8F5</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.STUART" parent="Base.Theme.STUART" />
+</resources>
