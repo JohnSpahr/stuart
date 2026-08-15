@@ -1,0 +1,81 @@
+# ==========================================
+# Build Outputs & Temporary Files
+# ==========================================
+*.apk
+*.aab
+*.aar
+*.dex
+*.class
+bin/
+build/
+.gradle/
+captures/
+
+# ==========================================
+# Tests & Coverage Reports
+# ==========================================
+/build/reports/tests/
+/build/test-results/
+/build/reports/coverage/
+/build/outputs/code_coverage/
+*.exec
+*.ec
+
+# ==========================================
+# Security: Keys, Secrets & Release Artifacts
+# ==========================================
+*.jks
+*.keystore
+*.p12
+*.pem
+*.pk8
+key.properties
+local.properties
+google-services.json
+secrets.properties
+
+# Release obfuscation output
+mapping.txt
+usage.txt
+seeds.txt
+dump.txt
+
+# ==========================================
+# AI Assistant Artifacts & Chat Logs
+# ==========================================
+# Cursor & GitHub Copilot logs/indexes
+.cursor/
+.cursorrules
+.copilot/
+.github/copilot-instructions.md
+
+# JetBrains AI Assistant / Gemini in Android Studio
+.idea/ai/
+.idea/copilot/
+.idea/chat/
+*.chat
+*.prompt
+
+# Local LLM, Ollama, & Agent caches
+.ai/
+.promptkit/
+.aichat/
+chat_history/
+*.llama
+*.gguf
+
+# ==========================================
+# IDE & System Bloat
+# ==========================================
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS & Native Build
+.cxx/
+.externalNativeBuild/
+obj/
+.DS_Store
+Thumbs.db
